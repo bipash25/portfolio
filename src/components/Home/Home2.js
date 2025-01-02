@@ -19,18 +19,17 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, or atleast I think so… 🤷‍♂️
+              I fell in love with programming at a very young age of barely 9yo and I had been surfing through it for the next 5 years, till I gained conciousness about my goal and true passion. Since the last 2 years, I feel like I have learnt a lot, or atleast a little bit, I suppose... 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am not so fluent, yet I'm clear of the basics at least in classics like
               <i>
-                <b className="purple"> C++, JavaScript and Go. </b>
+                <b className="purple"> C, C++, JavaScript, Python, Java, Rust, Dart and Go. </b>
               </i>
               <br />
               <br />
-              My field of interest's are building new &nbsp;
+              My field of interests are building new&nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">AI Solutions, Web Applications, Desktop Applications, Mobile Applications, </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Automation.
@@ -38,17 +37,17 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Python, Node.js</b> and
+              Whenever possible, I also apply my skills for developing products
+              with <b className="purple">Python, Node.js, Electron.js, Dart</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Libraries and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js, Vite and Next.js</b>
+                <b className="purple"> Flutter, React.js, Vite and Next.js</b>
               </i>
             </p>
           </Col>
