@@ -205,6 +205,17 @@ button:focus {
   width: 100%;
 }
 
+/* Main Section */
+
+.page-container {
+  background-image: var(--image-gradient), url("./Assets/home-bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; /* Optional for parallax effect */
+  width: 100%;
+}
+
 /* --------- */
 /* Home section */
 /* --------- */
@@ -258,18 +269,11 @@ button:focus {
 }
 
 .home-section {
-  position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-/*   overflow: hidden; */
-  /* padding-bottom: 30px !important;
-  padding-top: 30px !important; */
+  height: 100vh; /* Full viewport height for Home */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .home-content {
@@ -551,11 +555,9 @@ button:focus {
 /* --------- */
 
 .about-section {
-  position: relative !important;
-  padding-top: 150px !important;
-  padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
+  min-height: 100vh; /* At least viewport height for About */
+  padding: 2rem;
+  color: white;
 }
 
 .tech-icons {
