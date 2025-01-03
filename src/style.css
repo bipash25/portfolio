@@ -246,8 +246,8 @@ button:focus {
   position: absolute !important;
   top: 0;
   left: 0;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
+/*   background-repeat: no-repeat !important;
+  background-size: cover !important; */
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -263,12 +263,11 @@ button:focus {
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: contain;
-  height: 100vh;
-  width: 100vw;
+  background-size: cover;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+/*   overflow: hidden; */
   /* padding-bottom: 30px !important;
   padding-top: 30px !important; */
 }
